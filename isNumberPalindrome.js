@@ -29,7 +29,7 @@ const isNumberPalindrome = (number) => {
   var digit = 0; // init reversed number and digit
   for (var i = 0; copy > 0; i++) { // iterate until copy is 0 or less
     digit = copy % 10; // current digit is copy % 10
-    // multiply reversed number by 10 and add the digit
+    reversed = (reversed * 10) + digit; // multiply reversed number by 10 and add the digit
     // divide the number copy by 10 and remove decimals
   }
   return reversed === number;
