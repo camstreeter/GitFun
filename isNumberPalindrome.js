@@ -21,8 +21,10 @@ Steps
   number copy = 0
 5
   1331 = 1331 return true
+*/
+
 const isNumberPalindrome = (number) => {
-  // copy input number to build reversed number
+  var copy = number; // copy input number to build reversed number
   // init reversed number and digit
   // iterate until copy is 0 or less
     // current digit is copy % 10
@@ -31,4 +33,4 @@ const isNumberPalindrome = (number) => {
   }
   return reversed === number;
 }
- */
+
