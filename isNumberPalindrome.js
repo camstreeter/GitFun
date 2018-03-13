@@ -25,7 +25,8 @@ Steps
 
 const isNumberPalindrome = (number) => {
   var copy = number; // copy input number to build reversed number
-  // init reversed number and digit
+  var reversed = 0;
+  var digit = 0; // init reversed number and digit
   // iterate until copy is 0 or less
     // current digit is copy % 10
     // multiply reversed number by 10 and add the digit
